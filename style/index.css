@@ -57,7 +57,7 @@ header .d-flex{
 }
 
 .section-1{
-    background: center / cover url("../../images/section1.jpg") no-repeat;
+    background: center / cover url("../images/section1.jpg") no-repeat;
     /*padding: 105px 0 101px;*/
     text-align: center;
     position: relative;
@@ -355,7 +355,7 @@ h4 {
 
 }
 .section6 {
-    background: center / cover url("../../images/phone6.jpg") no-repeat;
+    background: center / cover url("../images/phone6.jpg") no-repeat;
     text-align: center;
     position: relative;
     width: auto;
