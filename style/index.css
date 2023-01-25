@@ -717,7 +717,7 @@ h4 {
 .social-icon-wrapper {
     height: 70px;
     width: 70px;
-    pad
+
 }
 li img  {
     width: 14px;
@@ -1026,4 +1026,10 @@ background: #545252;
     .form-wrapper {
 
     }
+}
+.Mark,
+.Mail,
+.Heart {
+    width: 100px;
+    height: 100px;
 }
