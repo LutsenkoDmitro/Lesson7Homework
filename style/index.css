@@ -1027,9 +1027,10 @@ background: #545252;
 
     }
 }
-.Mark,
-.Mail,
-.Heart {
-    width: 100px;
-    height: 100px;
+ .Mark,
+ .Mail,
+ .Heart {
+     display: block;
+     width: 100px;
+     height: 100px;
 }
