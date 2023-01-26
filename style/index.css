@@ -7,6 +7,7 @@
     padding: 0;
     display: flex;
     justify-content: flex-end;
+
 }
 .menu-btn {
     width: 30px;
@@ -14,6 +15,7 @@
     position: relative;
     z-index:2;
     overflow: hidden;
+
 }
 .menu-btn span {
     width: 30px;
@@ -23,10 +25,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #222222;
-    transition: all 0.5s;
+    transition-duration: 0.5s;
+
 }
 .menu-btn span:nth-of-type(2) {
     top: calc(50% - 5px);
+
 }
 .menu-btn span:nth-of-type(3) {
     top: calc(50% + 5px);
@@ -82,6 +86,9 @@ nav label{
         width: 100%;
         margin-left: -30px;
         padding-left: 28px;
+
+    }
+
     }
     .menu li{
         float: none;
@@ -150,17 +157,14 @@ img {
         z-index: 999;
         height: calc(100vh - 90px);
         background: #F5F5F5;
+        transition: 1.5s;
+
     }
 }
 
 
 
 
-/*@media (min-width: 768px) {*/
-/*    .menu_clearfix {*/
-/*        font-size: 12px;*/
-/*    }*/
-/*}*/
 .menu_clearfix a{
     padding: 4px 17px;
 }
@@ -182,14 +186,7 @@ header{
     padding: 18px 0;
     background: white;
 }
-@media (min-width: 568px) {
-    header {
-        padding: 10px;
-    }
-    .container h1, {
-        font-size: 15px;
 
-}
 @media (min-width: 768px) {
     header {
         padding: 14px;
@@ -240,28 +237,25 @@ header .d-flex{
 .section-1 h1{
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 44px;
-    line-height: 55px;
+    font-size: 16px;
+    line-height: 35px;
     text-transform: uppercase;
     color: #FFFFFF;
     padding-top: 105px;
 }
-@media (min-width: 568px) {
-    .section-1 h1 {
-        font-size: 25px;
-    }
 
-}
 
 @media (min-width: 768px) {
     .section-1 h1 {
         font-size: 30px;
+        line-height: 45px;
     }
 
 }
 @media (min-width: 1024px) {
     .section-1 h1 {
-        font-size: 35px;
+        font-size: 44px;
+        line-height: 55px;
     }
 
 }
@@ -321,32 +315,29 @@ header .d-flex{
     font-family: Vollkorn;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 12px;
+    line-height: 15px;
     color: #000000;
     max-width: 940px;
     margin: 0 auto;
     padding-top: 60px;
     text-align: center;
+    padding: 50px;
 
 }
-@media (min-width: 568px) {
-    .container-2 h1 {
-        font-size: 12px;
-        padding: 50px;
-    }
-}
+
 
 @media (min-width: 768px) {
     .container-2 h1 {
-        font-size: 16px;
-padding: 50px;
+        font-size: 14px;
+
     }
 }
 
 @media (min-width: 1024px) {
     .container-2 h1 {
         font-size: 18px;
+
 
     }
 }
@@ -446,32 +437,28 @@ p {
     -webkit-box-shadow: 0px 30px 32px -21px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 30px 32px -21px rgba(0,0,0,0.75);
     box-shadow: 0px 30px 32px -21px rgba(0,0,0,0.75);
-    width: 960px;
+    width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-@media (min-width: 568px) {
-    .card2 {
-        display: flex;
-        flex-direction: column;
-        max-width: 300px;
-    }
-}
+
 
 @media (min-width: 768px) {
     .card2 {
-        max-width: 680px;
+
         display: flex;
-        flex-direction: row;
+        /*flex-direction: row;*/
+        width: 700px;
     }
 }
 @media (min-width: 1024px) {
     .card2 {
-        max-width: 960px;
+        width: 960px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
     }
 }
 @media (min-width: 1280px) {
@@ -516,6 +503,9 @@ p {
     margin-right: 6px;
     font-size: 0;
 }
+    .container-3 p {
+        font-size: 18px;
+    }
 .container-3 h1 {
     font-size: 16px;
     padding-top: 20px;
@@ -563,16 +553,40 @@ p {
     flex-direction: column;
     align-items: center;
 }
+.section-3 p {
+    font-size: 18px;
+}
+@media (min-width: 768px) {
+    .section-3 p {
+        font-size: 23px;
+    }
+
+}
 
 
 .section-4 {
     background: #F5F5F5;
 }
-@media (min-width: 568px) {
-    .section-4 {
-        display: flex;
-        flex-direction: column;
+/*@media (min-width: 568px) {*/
+/*    .section-4 {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*    }*/
+/*}*/
+.section-4 p {
+        font-size: 18px;
     }
+@media (min-width: 768px) {
+    .section-4 p  {
+        font-size: 23px;
+    }
+    .container-3 p {
+        font-size: 23px;
+    }
+    .section-6 p {
+        font-size: 23px;
+    }
+
 }
 .parent {
     width: 62px;
@@ -677,7 +691,14 @@ h4 {
     flex-direction: column;
     align-items: center;
 }
-
+.section-6 p {
+    font-size: 18px;
+}
+@media (min-width: 768px) {
+    .section-6 p {
+        font-size: 23px;
+    }
+}
 .icons-wrapper-second {
     display: flex;
     flex-direction: column;
@@ -687,10 +708,14 @@ h4 {
 
 .contact {
     display: flex;
-    max-width: 960px;
+    max-width: 460px;
     padding-top: 10px;
 }
-
+@media (min-width: 768px) {
+    .contact {
+        max-width: 960px;
+    }
+}
 .text7 {
     width: 320px;
     display: flex;
@@ -740,14 +765,20 @@ form{
 }
 .form-text {
     height: 57px;
-    width: 564px;
+    width: 364px;
     padding-left: 31px;
     background: black;
 }
 .form-text-project {
-    width: 564px;
+    width: 364px;
     height: 127px;
     padding-left: 31px;
+}
+@media (min-width: 768px) {
+    .form-text,
+    .form-text-project {
+        width: 564px;
+    }
 }
 .text-project {
     font-family: Vollkorn;
@@ -797,13 +828,19 @@ background: #545252;
     object-fit: cover;
 }
 .last-text {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
     font-family: Vollkorn;
     line-height: 22px;
     text-align: center;
     color: rgba(255, 255, 255, 0.4);
-    margin-top: 14px;
+    margin-top: 24px;
+}
+@media (min-width: 768px) {
+    .last-text {
+        font-size: 15px;
+        margin-top: 14px;
+    }
 }
 .section-7 {
     display: flex;
@@ -899,12 +936,7 @@ background: #545252;
 
 .dws-menu {
 }
-@media (min-width: 568px) {
-    .dws-menu {
-        font-size: 12px;
-        padding-top: 0;
-    }
-}
+
 
 @media (min-width: 768px) {
     .dws-menu {
@@ -989,23 +1021,7 @@ background: #545252;
     color: white;
 }
 
-    @media (min-width: 568px) {
-        .contact-info,
-        .text7 span{
-            font-family: Vollkorn;
-            font-size: 12px;
-            font-weight: 400;
-            line-height: 22px;
-            text-align: 22px;
-            align-content: center;
-            word-break: break-all;
-            white-space: pre-line;
-        }
-        .text7 h1 {
-        font-size: 12px;
-        }
-    }
-    }
+
 @media (min-width: 968px) {
     .contact-info,
     .text7 span{
@@ -1022,11 +1038,7 @@ background: #545252;
         font-size: 16px;
     }
 }
-@media (min-width: 568px) {
-    .form-wrapper {
 
-    }
-}
  .Mark,
  .Mail,
  .Heart {
@@ -1034,3 +1046,7 @@ background: #545252;
      width: 100px;
      height: 100px;
 }
+
+
+
+
