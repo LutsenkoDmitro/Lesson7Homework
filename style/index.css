@@ -636,7 +636,9 @@ p {
         justify-content: center;
     }
 }
-
+.text6 h4 {
+    padding-right: 10px;
+}
 
 h4 {
     font-family: Montserrat;
