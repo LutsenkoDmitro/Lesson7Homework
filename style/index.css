@@ -330,6 +330,7 @@ header .d-flex{
 @media (min-width: 768px) {
     .container-2 h1 {
         font-size: 14px;
+        line-height: 20px;
 
 
     }
