@@ -75,11 +75,12 @@ nav label{
         display: flex;
         justify-content: flex-end;
     }
+
     .text7 {
         font-size: 12px;
 
+    }
 }
-
     /*#checkbox_toggle:checked ~ .menu_clearfix{*/
     /*    display: block;*/
     /*    max-height: 100%;*/
@@ -96,6 +97,7 @@ nav label{
     #checkbox_toggle:checked ~ .hamburger .hamburger-line::before {
         transform: rotate(-45deg);
         top: 0;
+
 
     }
     #checkbox_toggle:checked ~ .hamburger .hamburger-line::after {
@@ -152,7 +154,7 @@ img {
     padding-right: 20px;
     text-shadow: 3px -4px 2px rgba(95,86,86,0.33);
 }
-.menu_clearfix{
+.menu_clearfix {
     right: 0;
     left: 0;
     overflow: hidden;
@@ -163,6 +165,8 @@ img {
     color: #404040;
     display: flex;
     margin-top: 20px;
+    transition: transform 0.4s ease-in-out;
+    animation: about-img-animation 1s ease-in-out forwards;
 }
 
 
@@ -205,6 +209,7 @@ img {
 
     }
 }
+
 .hamburger {
     /*display: none;*/
     padding: 20px 0;
@@ -243,7 +248,7 @@ img {
         background-color: #7EC4BD;
         text-align: center;
     }
-
+}
 
 
 .menu_clearfix a{
