@@ -702,12 +702,12 @@ p {
     align-items: center;
     padding: 10px;
 }
-/*@media (max-width: 960px) {*/
-/*    .text5 {*/
-/*        font-size: 18px;*/
-/*    }*/
+@media (min-width: 968px) {
+    .text5 {
+        font-size: 26px;
+    }
 
-/*}*/
+}
 .text6 {
     max-width: 338px;
     text-align: center;
