@@ -166,7 +166,6 @@ img {
     display: flex;
     margin-top: 20px;
     transition: transform 0.4s ease-in-out;
-    animation: about-img-animation 1s ease-in-out forwards;
 }
 
 
