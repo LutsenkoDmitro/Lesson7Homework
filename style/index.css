@@ -126,6 +126,9 @@ nav label{
 body{
     height: 289px;
 }
+main {
+    margin-top: 106px;
+}
 
 img {
     width: 100%;
@@ -166,7 +169,9 @@ img {
     display: flex;
     transition: transform 0.4s ease-in-out;
 }
-
+.menu_clearfix:before {
+    transition: transform 0.4s ease-in-out;
+}
 
 @media (max-width: 768px) {
     .menu_clearfix {
@@ -175,13 +180,12 @@ img {
         text-align: center;
         right: 0;
         left: 0;
-        overflow: hidden;
-        position: absolute;
         text-transform: uppercase;
         font-size: 12px;
         line-height: 20px;
         color: #404040;
-        display: flex;
+        display: none;
+
     }
     .menu_clearfix li {
         margin-top: 120px;
@@ -204,19 +208,18 @@ img {
     }
     .hamburger {
         display: block;
+        position: fixed;
+        z-index: 5;
 
     }
 }
 
-body.overflow-hidden {
-    overflow: hidden;
-}
+
 
 .hamburger {
     right: 0;
     cursor: pointer;
-    position: fixed;
-    z-index: 5;
+
 }
 
 .hamburger-line {
@@ -274,6 +277,11 @@ body.overflow-hidden {
 header{
     padding: 18px 0;
     background: white;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 @media (min-width: 768px) {
