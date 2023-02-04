@@ -203,7 +203,7 @@ img {
         height: 100%;
         top: 0;
         left: 0;
-        padding-top: 160px;
+        padding-top: 100px;
         z-index: 1;
         background: white;
         transition: all 2.2s cubic-bezier(0, 0, 0, 0.99);
