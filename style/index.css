@@ -84,16 +84,7 @@ nav label{
 
     }
 }
-    /*#checkbox_toggle:checked ~ .menu_clearfix{*/
-    /*    display: block;*/
-    /*    max-height: 100%;*/
-    /*    transition: all .5x;*/
-    /*    position: absolute;*/
-    /*    width: 100%;*/
-    /*    margin-left: -30px;*/
-    /*    padding-left: 28px;*/
 
-    /*}*/
     #checkbox_toggle:checked ~ .hamburger .hamburger-line {
         background-color: transparent;
     }
@@ -164,7 +155,6 @@ img {
     right: 0;
     left: 0;
     overflow: hidden;
-    /*position: absolute;*/
     text-transform: uppercase;
     font-size: 12px;
     line-height: 20px;
@@ -172,9 +162,7 @@ img {
     display: flex;
     transition: transform 0.4s ease-in-out;
 }
-.menu_clearfix:before {
-    transition: transform 0.4s ease-in-out;
-}
+
 
 @media (max-width: 768px) {
     .menu_clearfix {
@@ -191,7 +179,7 @@ img {
 
     }
     .menu_clearfix li {
-        margin-top: 120px;
+        margin-top: 60px;
     }
     #checkbox_toggle:checked ~ .menu_clearfix{
         display: block;
@@ -203,7 +191,7 @@ img {
         height: 100%;
         top: 0;
         left: 0;
-        padding-top: 50px;
+        padding-top: 130px;
         z-index: 1;
         background: white;
         transition: all 2.2s cubic-bezier(0, 0, 0, 0.99);
@@ -235,7 +223,7 @@ img {
 .hamburger-line::before,
 .hamburger-line::after{
     background-color: black;
-    display: block;
+    /*display: block;*/
     content: "";
     position: absolute;
     transition: all .3s;
@@ -315,7 +303,6 @@ header .d-flex{
 
 .section-1{
     background: center / cover url("../images/section1.jpg") no-repeat;
-    /*padding: 105px 0 101px;*/
     text-align: center;
     position: relative;
     }
@@ -805,8 +792,9 @@ h4 {
 
 .contact {
     display: flex;
-    max-width: 360px;
+    max-width: 300px;
     padding-top: 10px;
+
 }
 @media (min-width: 768px) {
     .contact {
@@ -818,6 +806,7 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 14px;
 }
 @media (max-width: 960px) {
     .text7 {
@@ -862,19 +851,19 @@ form{
 }
 .form-text {
     height: 57px;
-    width: 360px;
+    max-width: 320px;
     padding-left: 31px;
     background: black;
 }
 .form-text-project {
-    width: 360px;
+    max-width: 320px;
     height: 127px;
     padding-left: 31px;
 }
 @media (min-width: 768px) {
     .form-text,
     .form-text-project {
-        width: 564px;
+        max-width: 560px;
     }
 }
 .text-project {
@@ -896,6 +885,14 @@ form{
 .form-text {
     background: #3E3E3E;
     color: white;
+    width: 300px;
+}
+@media (min-width: 768px) {
+    .form-text,
+    .form-text-project {
+        width: 565px;
+    }
+
 }
 .form-text:nth-child(even) {
 background: #545252;
@@ -1118,7 +1115,12 @@ background: #545252;
     color: white;
 }
 
-
+.text7 h1 {
+    font-size: 12px;
+}
+.text7 span {
+    font-size: 14px;
+}
 @media (min-width: 968px) {
     .contact-info,
     .text7 span{
@@ -1143,7 +1145,6 @@ background: #545252;
      width: 100px;
      height: 100px;
 }
-
 
 
 
