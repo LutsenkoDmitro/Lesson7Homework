@@ -1,6 +1,8 @@
 @import 'common.css';
 
-
+html {
+    overflow-x: hidden;
+}
 .menu{
     list-style-type: none;
     margin: 0;
@@ -119,6 +121,8 @@ nav label{
 
 body{
     height: 289px;
+
+
 }
 main {
     margin-top: 106px;
